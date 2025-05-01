@@ -12,12 +12,20 @@
             <li><a href="index.html" class="active">Home</a></li>
             <li><a href="about.html">About Us</a></li>
             <li><a href="contact.html">Contact Us</a></li>
+            <li class="search-container">
+                <input type="text" id="searchInput" placeholder="Search...">
+                <button id="searchBtn">Search</button>
+                <button id="clearBtn">Clear</button>
+            </li>
         </ul>
     </nav>
 
     <div class="container">
         <h1>Welcome to Travel Recommendations</h1>
         <p class="intro">Discover amazing destinations around the world with our curated recommendations. Whether you're looking for beautiful beaches, historic temples, or country-specific adventures, we've got you covered!</p>
+        
+        <!-- Add this div for search results -->
+        <div id="resultsContainer"></div>
         
         <section class="recommendation">
             <h2>Beach Recommendation</h2>
